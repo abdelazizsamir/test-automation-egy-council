@@ -1,0 +1,13 @@
+<suite name="Sauce Demo Tests" verbose="1" >
+
+    <test name="Sauce Demo Tests">
+        <classes>
+            <class name="tests.RegistrationTests" > </class>
+            <class name="tests.ProductDetailsTests" > </class>
+            <class name="tests.MyAccountTests" > </class>
+            <class name="tests.LoginTests" > </class>
+
+        </classes>
+    </test>
+
+</suite>
