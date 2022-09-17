@@ -11,6 +11,7 @@ import static fileReaderManager.ReadFromFiles.getPropertyByKey;
 
 
 public class LoginTests extends BaseTests_Parent{
+    // change
 
     @Test(priority = 1)
     public void testLoginToApp ()
