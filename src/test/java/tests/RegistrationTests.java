@@ -31,6 +31,8 @@ public class RegistrationTests extends BaseTests_Parent {
 
     @Test(priority = 1)
     public void testRegisterNewUser() {
+        // adding comment
+        // adding code line
         NavigationBarPage navigationBarPage = new NavigationBarPage(driver);
         RegistratioPage registratioPage = navigationBarPage.clickRegisterFromNavigationBar();
         SuccessfulRegistrationPage successfulRegistrationPage =
@@ -47,6 +49,12 @@ public class RegistrationTests extends BaseTests_Parent {
                 registratioPage.registerNewUser(fname, lname, email, password, confirmPassword);
         Assert.assertEquals(successfulRegistrationPage.getSuccessfulRegistrationMsg(),
                 "Your registration c ompleted", "error registration message");
+    }
+
+    @Test
+    public void test3 ()
+    {
+        
     }
 
 
