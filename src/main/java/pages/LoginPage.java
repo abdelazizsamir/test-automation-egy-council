@@ -8,7 +8,7 @@ public class LoginPage extends BasePage{
     By emailField = By.id("Email");
     By passwordField = By.id("Password");
     By loginBtn = By.cssSelector(".login-button");
-
+// change
     public LoginPage(WebDriver driver) {
         super(driver);
     }
