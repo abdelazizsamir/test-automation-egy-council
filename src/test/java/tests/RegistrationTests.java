@@ -51,5 +51,11 @@ public class RegistrationTests extends BaseTests_Parent {
                 "Your registration c ompleted", "error registration message");
     }
 
+    @Test
+    public void test3 ()
+    {
+        
+    }
+
 
 }
