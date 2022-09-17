@@ -31,6 +31,8 @@ public class RegistrationTests extends BaseTests_Parent {
 
     @Test(priority = 1)
     public void testRegisterNewUser() {
+        // adding comment
+        // adding code line
         NavigationBarPage navigationBarPage = new NavigationBarPage(driver);
         RegistratioPage registratioPage = navigationBarPage.clickRegisterFromNavigationBar();
         SuccessfulRegistrationPage successfulRegistrationPage =
